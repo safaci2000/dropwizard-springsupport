@@ -1,3 +1,12 @@
+# NOTE
+
+Credit goes to: https://github.com/sleberknight/spring-appcontext-builder 
+
+## ChangeLog
+
+ - Renamed the package.
+ - Upgraded spring version to 4.3.8
+
 # Spring ApplicationContext Builder
 
 A utility to programmatically construct Spring ApplicationContexts using annotation or XML-based configurations.

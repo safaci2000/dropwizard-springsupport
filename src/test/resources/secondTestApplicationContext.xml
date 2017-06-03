@@ -6,7 +6,7 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="sampleTestBean3" class="com.fortitudetec.spring.context.SampleTestBean">
+    <bean id="sampleTestBean3" class="com.esamir.dropwizard.support.spring.SampleTestBean">
         <constructor-arg value="test bean 3"/>
         <constructor-arg value="256"/>
     </bean>

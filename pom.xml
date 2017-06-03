@@ -6,17 +6,16 @@
         <maven>3.0.0</maven>
     </prerequisites>
 
-    <artifactId>spring-appcontext-builder</artifactId>
-    <version>0.1.0</version>
-    <groupId>com.fortitudetec</groupId>
-    <name>Spring ApplicationContext Builder</name>
+    <artifactId>dropwizard-spring-support</artifactId>
+    <version>0.2.0</version>
+    <groupId>com.esamir.dropwizard.support.spring</groupId>
+    <name>DropWizard Spring Support</name>
     <packaging>jar</packaging>
-    <url>https://github.com/sleberknight/spring-appcontext-builder</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring.version>4.2.0.RELEASE</spring.version>
+        <spring.version>4.3.8.RELEASE</spring.version>
     </properties>
 
     <dependencies>

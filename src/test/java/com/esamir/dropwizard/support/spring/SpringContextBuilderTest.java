@@ -1,4 +1,4 @@
-package com.fortitudetec.spring.context;
+package com.esamir.dropwizard.support.spring;
 
 import org.junit.Before;
 import org.junit.Test;

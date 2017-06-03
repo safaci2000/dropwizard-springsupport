@@ -1,4 +1,4 @@
-package com.fortitudetec.spring.context;
+package com.esamir.dropwizard.support.spring;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;

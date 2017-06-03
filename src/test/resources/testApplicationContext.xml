@@ -6,17 +6,17 @@
        http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="sampleTestBean1" class="com.fortitudetec.spring.context.SampleTestBean">
+    <bean id="sampleTestBean1" class="com.esamir.dropwizard.support.spring.SampleTestBean">
         <constructor-arg value="test bean 1"/>
         <constructor-arg value="42"/>
     </bean>
 
-    <bean id="sampleTestBean2" class="com.fortitudetec.spring.context.SampleTestBean">
+    <bean id="sampleTestBean2" class="com.esamir.dropwizard.support.spring.SampleTestBean">
         <constructor-arg value="test bean 2"/>
         <constructor-arg value="84"/>
     </bean>
 
-    <bean id="otherTestBean" class="com.fortitudetec.spring.context.OtherTestBean">
+    <bean id="otherTestBean" class="com.esamir.dropwizard.support.spring.OtherTestBean">
         <constructor-arg value="other bean 1"/>
         <constructor-arg value="4096"/>
         <constructor-arg ref="sampleTestBean1"/>

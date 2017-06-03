@@ -1,4 +1,4 @@
-package com.fortitudetec.spring.context;
+package com.esamir.dropwizard.support.spring;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
